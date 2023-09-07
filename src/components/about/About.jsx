@@ -39,7 +39,10 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis facere veritatis aspernatur sapiente labore molestias quisquam recusandae, maiores sed nesciunt optio explicabo necessitatibus, illum ad quibusdam inventore libero! Minus, nemo?
+          Hello, I am a <strong> full stack web developer </strong> ,
+          with knowledge in software architecture, interface design, and good programming practices, I am able to create robust and scalable solutions to meet the market demand.
+          Furthermore, I am passionate about technology and always seeking to learn and apply new tools and techniques to improve my performance and offer high-quality solutions to my clients.
+          If you need a full stack web developer, don't hesitate to contact me. I am ready to bring my skills and experience to your next project.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
