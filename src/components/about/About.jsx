@@ -38,7 +38,7 @@ const About = () => {
               <small>25+ Complete Projects</small>
             </article>
           </div>
-          <p>
+          <p className='about_text'>
           Hello, I am a <strong> full stack web developer </strong> ,
           with knowledge in software architecture, interface design, and good programming practices, I am able to create robust and scalable solutions to meet the market demand.
           Furthermore, I am passionate about technology and always seeking to learn and apply new tools and techniques to improve my performance and offer high-quality solutions to my clients.
