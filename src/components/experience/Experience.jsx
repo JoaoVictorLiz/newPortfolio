@@ -18,8 +18,14 @@ const Experience = () => {
           <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>React</h4>
+                <h4>React Js</h4>
               </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+             <div>
+              <h4>Next Js</h4>
+             </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
@@ -38,14 +44,7 @@ const Experience = () => {
               <div>
                 <h4>Tailwind css</h4>
               </div>
-            </article>
-           
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon'/>
-             <div>
-              <h4>UI/UX Design</h4>
-             </div>
-            </article>
+            </article>    
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
@@ -64,12 +63,12 @@ const Experience = () => {
                 <h4>PHP</h4>
               </div>
             </article>
-            <article className='experience__details'>
+            {/* <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
               <h4>Laravel</h4>
               </div>
-            </article>
+            </article> */}
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
@@ -85,7 +84,7 @@ const Experience = () => {
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-              <h4>API</h4>
+              <h4>Firebase</h4>
               </div>
             </article>
             
