@@ -3,10 +3,10 @@ import "./portfolio.css"
 import IMG1 from '../../assets/tbo.png'
 import IMG2 from '../../assets/AppleSite.png'
 import IMG3 from '../../assets/Currency.png'
-import IMG4 from '../../assets/portfolio4.jpg'
+import IMG4 from '../../assets/IMG45.png'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.jpg'
-import { FaReact } from 'react-icons/fa'
+import { FaReact,FaDocker } from 'react-icons/fa'
 import { SiTailwindcss } from 'react-icons/si'
 import { SiTypescript, SiJavascript,SiNextdotjs } from 'react-icons/si'
 
@@ -43,33 +43,11 @@ const data = [
   {
     id: 4, 
     image: IMG4, 
-    title: 'Crypto Currency Dashboard & Financial Visualization',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/20514766-Seaker-Website',
-    react: <FaReact size={25}/>,
-    tailwind: <SiTailwindcss size={25}/>,
-    typescript: <SiTypescript size={25}/>
-  },
-  {
-    id: 5, 
-    image: IMG5, 
-    title: 'Crypto Currency Dashboard & Financial Visualization',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/20514766-Seaker-Website',
-    react: <FaReact size={25}/>,
-    tailwind: <SiTailwindcss size={25}/>,
-    typescript: <SiTypescript size={25}/>
-  },
-  {
-    id: 6, 
-    image: IMG6, 
-    title: 'Crypto Currency Dashboard & Financial Visualization',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/20514766-Seaker-Website',
-    react: <FaReact size={25}/> ,
-    tailwind: <SiTailwindcss size={25}/>,
-    typescript: <SiTypescript size={25}/>
-  },
+    title: 'A Dev environment with react, typescript and tailwind css',
+    github: 'https://github.com/JoaoVictorLiz/Dev-Environment-Docker',
+    demo: 'https://hub.docker.com/repository/docker/baronsatoshi/react-docker/general',
+    react: <FaDocker size={25}/>
+  }
   
 ]
 
@@ -100,6 +78,10 @@ const Portfolio = () => {
             )
           })
         }
+      </div>
+
+      <div className='divcenter'>
+      <a href="https://github.com/JoaoVictorLiz?tab=repositories" className='btn btn-primary' target="_blank">See More</a>         
       </div>
      
     </section>
