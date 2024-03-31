@@ -63,12 +63,6 @@ const Experience = () => {
                 <h4>PHP</h4>
               </div>
             </article>
-            {/* <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon'/>
-              <div>
-              <h4>Laravel</h4>
-              </div>
-            </article> */}
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
