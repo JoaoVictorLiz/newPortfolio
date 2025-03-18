@@ -39,10 +39,10 @@ const About = () => {
             </article>
           </div>
           <p className='about_text'>
-          Hello, I am a <strong> Software Engineer </strong> ,
+          Hello, I am a <strong> Full Stack Developer </strong> ,
           with knowledge in software architecture, interface design, and good programming practices, I am able to create robust and scalable solutions to meet the market demand.
           Furthermore, I am passionate about technology and always seeking to learn and apply new tools and techniques to improve my performance and offer high-quality solutions to my clients.
-          If you need a Software Engineer , don't hesitate to contact me. I am ready to bring my skills and experience to your next project.
+          If you need a Full Stack Developer, don't hesitate to contact me. I am ready to bring my skills and experience to your next project.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
