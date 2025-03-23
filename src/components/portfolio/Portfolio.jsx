@@ -4,7 +4,7 @@ import IMG1 from '../../assets/tbo.png'
 import IMG2 from '../../assets/AppleSite.png'
 import IMG3 from '../../assets/Currency.png'
 import IMG4 from '../../assets/IMG45.png'
-import IMG5 from '../../assets/portfolio5.png'
+import IMG5 from '../../assets/xora.png'
 import IMG6 from '../../assets/portfolio6.jpg'
 import { FaReact,FaDocker } from 'react-icons/fa'
 import { SiTailwindcss } from 'react-icons/si'
@@ -47,6 +47,15 @@ const data = [
     github: 'https://github.com/JoaoVictorLiz/Dev-Environment-Docker',
     demo: 'https://hub.docker.com/repository/docker/baronsatoshi/react-docker/general',
     react: <FaDocker size={25}/>
+  },
+  {
+    id: 5, 
+    image: IMG5, 
+    title: 'A Saas landing page built with React and Tailwind CSS - Xora',
+    github: 'https://github.com/JoaoVictorLiz/saas_landing_page',
+    demo: 'https://saas-landing-page-5o2s5b8qf-joao-victors-projects-7586da3b.vercel.app',
+    react: <FaReact size={25}/>,
+    tailwind: <SiTailwindcss size={25}/>,
   }
   
 ]
